@@ -1,0 +1,53 @@
+.table-section {
+    border-style: solid;
+}
+
+ul {
+    list-style-type: none;
+}
+    
+ul li::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("1.png");
+    background-size: contain;
+    background-repeat: no-repeat
+}
+body {
+    align: center;
+}
+
+table {
+    border: 1px solid black;
+}
+
+tr :nth-child() {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black
+}
+.male-under {
+    background-color: grey;
+}
+.male-over {
+    color:white;
+    background-color: black;
+}
+
+.female-under {
+    background-color: red;
+}
+
+.female-over {
+    background-color: pink;
+    color:black
+}
+
